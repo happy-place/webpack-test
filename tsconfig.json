@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS", // 模块规范
+    "target": "ES2015", // 编译规范
+    "strict": true // 启用严格模式
+  }
+}
