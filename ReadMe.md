@@ -621,6 +621,15 @@ module.exports = {
 npm run build
 ```
 
+## 通过立即执行函数解决作用域命名冲突问题
+
+```typescript
+(function(){
+  let a = 10;
+  console.log(a);
+})()
+```
+
 
 
 
